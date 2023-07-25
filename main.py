@@ -64,7 +64,7 @@
 #     2: ("Petya", 44, "swimming"),
 #     3: ("Ivan", 55, "swimming")
 # }
-# # передаем список с кол-вом значений эквивалентным количеству параметров функции
+# # # передаем список с кол-вом значений эквивалентным количеству параметров функции
 # for key in users:
 #     # func(users[key][0], users[key][1], users[key][2])
 #     func(*users[key])
@@ -108,6 +108,7 @@
 #
 #
 # my_func = outer()
+# my_func()
 # my_func()
 # my_func()
 
@@ -177,7 +178,7 @@ names = ["Vasya", "Petya", "Anton", "Petro"]
 #         return end
 #
 #     return symbol_separator
-
+#
 # my_greeting = hello_curried_v2("Hello")(", ")(".")
 # my_greeting("Vasya")
 # my_greeting("Petya")
